@@ -1,0 +1,17 @@
+scenario_env_json: /mnt/sda/Mystique/src/settings/scenario_env.json
+output_path: /mnt/sda/Mystique/src/outputs/mystique # absolute path
+lgsvl_map: SanFrancisco_correct
+apollo_map: SanFrancisco_correct
+
+pop_size: 4
+npc_size: 4
+time_size: 10
+bounds: [[[0,3],[0,3]],[[0,3],[0,150]],[[0,1],[9,18]]]
+total_sim_time: 30
+p_mutation: 0.4
+p_crossover: 0.4
+max_gen: 150
+selection: roulette
+
+# apollo reltaed path config
+default_record_folder: /mnt/sda/apollo/data/bag # /home/cmf/apollo/apollo6.0/apollo/data/bag # False means ignoring records
