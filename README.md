@@ -75,7 +75,7 @@ To set up AdvFuzz:
    python src/main.py
    ```
 
-Note: Records of the experiments can be found in the `results` directory.
+**Note:** Records of the experiments can be found in the `results` directory.
 
 
 

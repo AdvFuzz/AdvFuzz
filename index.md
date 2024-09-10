@@ -10,23 +10,44 @@ Here are some dynamically generated scenarios using AdvFuzz, showcasing how the 
 <table>
   <tr>
     <td>
-      <img src="img/record1.gif" alt="Caused by Ego" style="width: 100%;" />
-      <p align="center">EGO fails to plan trajectory</p>
+      <img src="img/record2.gif" alt="record2" style="width: 100%;" />
+      <p align="center">EGO changes across yellow line</p>
     </td>
     <td>
-      <img src="img/apollo_npc.gif" alt="Caused by NPC" style="width: 100%;" />
-      <p align="center">Caused by NPC (AV-Fuzzer)</p>
+      <img src="img/record1.gif" alt="record1" style="width: 100%;" />
+      <p align="center">EGO fails to plan trajectory</p>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="img/drivefuzz_ego.gif" alt="Caused by ADS" style="width: 100%;" />
-      <p align="center">Caused by Ego (DriveFuzz)</p>
+      <img src="img/type6.png" alt="type6" style="width: 100%;" />
+      <p align="center">Example of Type 6</p>
     </td>
     <td>
-      <img src="img/drivefuzz_npc.gif" alt="Caused by NPC" style="width: 100%;" />
-      <p align="center">Caused by NPC (DriveFuzz)</p>
+      <img src="img/type14.png" alt="type14" style="width: 100%;" />
+      <p align="center">Example of Type 14</p>
     </td>
   </tr>
 </table>
 
+<!-- 具体的复现实验场景可以参考records文件夹下的数据 -->
+**Note:** To replicate specific experimental scenarios or tests detailed in this documentation, refer to the data stored in the records folder.
+## Waypoints Generation and Speed Planning
+
+**LEFT_CHANGE maneuver** 
+<table>
+  <tr>
+    <td>
+      <img src="img/ST_graph1.png" alt="ST_graph1" style="width: 100%;" />
+      <p align="center" style="font-size: 14px;">Waypoints Generation of Adversarial NPC Vehicles</p>
+    </td>
+    <td>
+      <img src="img/ST_graph2.png" alt="ST_graph2" style="width: 100%;" />
+      <p align="center" style="font-size: 14px;">Speed Planning of Adversarial NPC Vehicles</p>
+    </td>
+  </tr>
+</table>
+
+**Right_CHANGE maneuver**
+**ACCELERATION_STRAIGHT maneuver**
+**DECELERATION_STRAIGHT maneuver**
