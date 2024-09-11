@@ -31,7 +31,7 @@ Here are some dynamically generated scenarios using AdvFuzz, showcasing how the 
 </table>
 
 <!-- 具体的复现实验场景可以参考records文件夹下的数据 -->
-**Note:** To replicate specific experimental scenarios or tests detailed in this documentation, refer to the data stored in the records folder.
+**Note:** To replicate specific experimental scenarios in this documentation, refer to the data stored in the /records folder.
 ## Waypoints Generation and Speed Planning
 
 **LEFT_CHANGE maneuver** 
@@ -39,15 +39,53 @@ Here are some dynamically generated scenarios using AdvFuzz, showcasing how the 
   <tr>
     <td>
       <img src="img/ST_graph1.png" alt="ST_graph1" style="width: 100%;" />
-      <p align="center" style="font-size: 14px;">Waypoints Generation of Adversarial NPC Vehicles</p>
+      <p align="center" style="font-size: 12px;">Waypoints Generation of Adversarial NPC Vehicles</p>
     </td>
     <td>
       <img src="img/ST_graph2.png" alt="ST_graph2" style="width: 100%;" />
-      <p align="center" style="font-size: 14px;">Speed Planning of Adversarial NPC Vehicles</p>
+      <p align="center" style="font-size: 12px;">Speed Planning of Adversarial NPC Vehicles</p>
     </td>
   </tr>
 </table>
 
 **Right_CHANGE maneuver**
+<table>
+  <tr>
+    <td>
+      <img src="img/ST_graph4.png" alt="ST_graph4" style="width: 100%;" />
+      <p align="center" style="font-size: 12px;">Waypoints Generation of Adversarial NPC Vehicles</p>
+    </td>
+    <td>
+      <img src="img/ST_graph2.png" alt="ST_graph2" style="width: 100%;" />
+      <p align="center" style="font-size: 12px;">Speed Planning of Adversarial NPC Vehicles</p>
+    </td>
+  </tr>
+</table>
+
 **ACCELERATION_STRAIGHT maneuver**
+<table>
+  <tr>
+    <td>
+      <img src="img/ST_graph6.png" alt="ST_graph5" style="width: 100%;" />
+      <p align="center" style="font-size: 12px;">Waypoints Generation of Adversarial NPC Vehicles</p>
+    </td>
+    <td>
+      <img src="img/ST_graph2.png" alt="ST_graph6" style="width: 100%;" />
+      <p align="center" style="font-size: 12px;">Speed Planning of Adversarial NPC Vehicles</p>
+    </td>
+  </tr>
+</table>
+
 **DECELERATION_STRAIGHT maneuver**
+<table>
+  <tr>
+    <td>
+      <img src="img/ST_graph5.png" alt="ST_graph7" style="width: 100%;" />
+      <p align="center" style="font-size: 12px;">Waypoints Generation of Adversarial NPC Vehicles</p>
+    </td>
+    <td>
+      <img src="img/ST_graph2.png" alt="ST_graph8" style="width: 100%;" />
+      <p align="center" style="font-size: 12px;">Speed Planning of Adversarial NPC Vehicles</p>
+    </td>
+  </tr>
+</table>
