@@ -10,22 +10,73 @@ Here are some dynamically generated scenarios using AdvFuzz, showcasing how the 
 <table>
   <tr>
     <td>
-      <img src="img/record2.gif" alt="record2" style="width: 100%;" />
-      <p align="center">EGO changes across yellow line</p>
+      <img src="img/type1.gif" alt="type1" style="width: 100%;" />
+      <p align="center">Type 1: EGO rear-ends NPC changing lanes</p>
     </td>
     <td>
-      <img src="img/record1.gif" alt="record1" style="width: 100%;" />
-      <p align="center">EGO fails to plan trajectory</p>
+      <img src="img/type2.gif" alt="type2" style="width: 100%;" />
+      <p align="center">Type 2: EGO hits the side of a NPC</p>
+    </td>
+  <tr>
+    <tr>
+    <td>
+      <img src="img/type3.gif" alt="type3" style="width: 100%;" />
+      <p align="center">Type 3: EGO collides with an NPC vehicle that finishes lane change</p>
+    </td>
+    <td>
+      <img src="img/type4.gif" alt="type4" style="width: 100%;" />
+      <p align="center">Type 4: EGO hits the rear of an NPC vehicle.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="img/type6.png" alt="type6" style="width: 100%;" />
-      <p align="center">Example of Type 6</p>
+      <img src="img/type5.gif" alt="type5" style="width: 100%;" />
+      <p align="center">Type 5: EGO hits other NPC vehicles stuck on lane</p>
     </td>
     <td>
-      <img src="img/type14.png" alt="type14" style="width: 100%;" />
-      <p align="center">Example of Type 14</p>
+      <img src="img/type6.gif" alt="type6" style="width: 100%;" />
+      <p align="center">Type 6: EGO changes across yellow line</p>
+    </td>
+  <tr>
+    <tr>
+    <td>
+      <img src="img/type7.gif" alt="type7" style="width: 100%;" />
+      <p align="center">Type 7: EGO hits the yellow line. </p>
+    </td>
+    <td>
+      <img src="img/type8.gif" alt="type8" style="width: 100%;" />
+      <p align="center">Type 8: EGO fails to plan trajectory</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="img/type9.gif" alt="type9" style="width: 100%;" />
+      <p align="center">Type 9: EGO hits the rear of an NPC</p>
+    </td>
+    <td>
+      <img src="img/type10.gif" alt="type10" style="width: 100%;" />
+      <p align="center">Type 10: EGO side-collides with an NPC</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="img/type11.gif" alt="type11" style="width: 100%;" />
+      <p align="center">Type 11: EGO hits the side of NPC</p>
+    </td>
+    <td>
+      <img src="img/type12.gif" alt="type12" style="width: 100%;" />
+      <p align="center">Type 12: EGO collides with NPC vehicle when
+changing lines</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="img/type13.gif" alt="type13" style="width: 100%;" />
+      <p align="center">Type 13: EGO collides with two NPC vehicles.</p>
+    </td>
+    <td>
+      <img src="img/type14.gif" alt="type14" style="width: 100%;" />
+      <p align="center">Type 14: EGO fails to plan trajectory</p>
     </td>
   </tr>
 </table>
