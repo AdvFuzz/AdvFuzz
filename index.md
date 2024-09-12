@@ -21,17 +21,17 @@ Here are some dynamically generated scenarios using AdvFuzz, showcasing how the 
     <tr>
     <td>
       <img src="img/type3.gif" alt="type3" style="width: 100%;" />
-      <p align="center">Type 3: EGO collides with an NPC vehicle that finishes lane change</p>
+      <p align="center">Type 3: EGO collides with a NPC</p>
     </td>
     <td>
       <img src="img/type4.gif" alt="type4" style="width: 100%;" />
-      <p align="center">Type 4: EGO hits the rear of an NPC vehicle.</p>
+      <p align="center">Type 4: EGO hits the rear of a NPC</p>
     </td>
   </tr>
   <tr>
     <td>
       <img src="img/type5.gif" alt="type5" style="width: 100%;" />
-      <p align="center">Type 5: EGO hits other NPC vehicles stuck on lane</p>
+      <p align="center">Type 5: EGO hits other NPCs stuck on lane</p>
     </td>
     <td>
       <img src="img/type6.gif" alt="type6" style="width: 100%;" />
@@ -65,8 +65,7 @@ Here are some dynamically generated scenarios using AdvFuzz, showcasing how the 
     </td>
     <td>
       <img src="img/type12.gif" alt="type12" style="width: 100%;" />
-      <p align="center">Type 12: EGO collides with NPC vehicle when
-changing lines</p>
+      <p align="center">Type 12: EGO collides with NPC</p>
     </td>
   </tr>
   <tr>
