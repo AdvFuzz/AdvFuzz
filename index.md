@@ -7,6 +7,7 @@ In this work, we propose the concept of adversarial NPC vehicles and introduce A
 
 ## Examples of Generated Scenarios
 Here are some dynamically generated scenarios using AdvFuzz, showcasing how the EGO vehicle interacts with adversarial NPC vehicles:
+
 <table>
   <tr>
     <td>
@@ -80,11 +81,13 @@ Here are some dynamically generated scenarios using AdvFuzz, showcasing how the 
   </tr>
 </table>
 
-<!-- 具体的复现实验场景可以参考records文件夹下的数据 -->
+
 **Note:** To replicate specific experimental scenarios in this documentation, refer to the data stored in the /records folder.
+
 ## Waypoints Generation and Speed Planning
 
 **LEFT_CHANGE maneuver** 
+
 <table>
   <tr>
     <td>
@@ -99,6 +102,7 @@ Here are some dynamically generated scenarios using AdvFuzz, showcasing how the 
 </table>
 
 **Right_CHANGE maneuver**
+
 <table>
   <tr>
     <td>
@@ -113,6 +117,7 @@ Here are some dynamically generated scenarios using AdvFuzz, showcasing how the 
 </table>
 
 **ACCELERATION_STRAIGHT maneuver**
+
 <table>
   <tr>
     <td>
@@ -127,6 +132,7 @@ Here are some dynamically generated scenarios using AdvFuzz, showcasing how the 
 </table>
 
 **DECELERATION_STRAIGHT maneuver**
+
 <table>
   <tr>
     <td>
