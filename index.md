@@ -3,10 +3,11 @@ In this work, we propose the concept of adversarial NPC vehicles and introduce A
 <!-- 补一句code代码点击这里查看 -->
 The paper has been submitted to FSE 2025.
 
+**For more details, see the code at [AdvFuzz GitHub Repository](https://github.com/AdvFuzz).**
+
 ## Overview
 ![Overview Image](/img/Overview_00.png)
 
-For more details, see the code at [AdvFuzz GitHub Repository](https://github.com/AdvFuzz).
 
 ## Waypoints Generation and Speed Planning
 
