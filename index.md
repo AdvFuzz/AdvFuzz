@@ -1,6 +1,5 @@
 In this work, we propose the concept of adversarial NPC vehicles and introduce AdvFuzz, a novel simulation testing approach, to generate adversarial scenarios on main lanes (e.g., urban roads and highways). AdvFuzz allows NPC vehicles to dynamically interact with the EGO vehicle and regulates the behaviors of NPC vehicles, finding more violation scenarios caused by the EGO vehicle more quickly. We compare AdvFuzz with a random approach and three state-of-the-art scenario-based testing approaches. Our experiments demonstrate that AdvFuzz can generate 198.34% more violation scenarios compared to the other four approaches in 12 hours and increase the proportion of violations caused by the EGO vehicle to 87.04%, which is more than 7 times that of other approaches. Additionally, AdvFuzz is at least 92.21% faster in finding one violation caused by the EGO vehicle than that of the other approaches.
 
-<!-- 补一句code代码点击这里查看 -->
 The paper has been submitted to FSE 2025.
 
 ## For more details, see the code at [AdvFuzz GitHub Repository](https://github.com/AdvFuzz).
@@ -64,7 +63,7 @@ Here are some dynamically generated scenarios using AdvFuzz, showcasing how the 
 
 | ![type1](img/type1.gif) | ![type2](img/type2.gif) |
 |:------------------------:|:------------------------:|
-| Type 1: EGO rear-ends NPC changing lanes | Type 2: EGO hits the side of a NPC |
+| Type 1: EGO rear-ends NPC changing lanes | Type 2: EGO hits the side of an NPC |
 | ![type3](img/type3.gif) | ![type4](img/type4.gif) |
 | Type 3: EGO collides with an NPC | Type 4: EGO hits the rear of an NPC |
 | ![type5](img/type5.gif) | ![type6](img/type6.gif) |

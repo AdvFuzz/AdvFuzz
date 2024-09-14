@@ -6,6 +6,8 @@ In this work, we propose the concept of adversarial NPC vehicles and introduce A
 
 **Note: This is the first version of AdvFuzz, and we plan to release updates in the future.**
 
+**The paper has been submitted to FSE 2025.**
+
 ## Experiment Environment
 We conduct all the experiments on a system with the following specifications:
 
